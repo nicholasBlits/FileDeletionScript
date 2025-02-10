@@ -1,5 +1,5 @@
 # Project Description
-`ZipCleaner.sh' enters a directory of the user's choosing and removes all the zip files from it.
+`ZipCleaner.sh` enters a directory of the user's choosing and removes all the zip files from it.
 
 # Using the Program
 
