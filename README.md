@@ -33,4 +33,5 @@ Any unwarranted changes will be reverted, and any plagiarism of this code will r
 ### Nicholas Blits - Head Developer
 
 E-mail: nicholasblits05@yahoo.com
+
 LinkedIn: https://bit.ly/NBlitsLinkedIn
