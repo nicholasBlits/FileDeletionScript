@@ -9,7 +9,7 @@ The compatibility of this program with either versions of Windows and other oper
 Please report any unknown errors to Nicholas Blits, whose contact information is provided in the Credits section of this README file.
 
 ## Known Errors
-This script only works for files without a space or special character in the name. For example, a file called `HelloWorld.zip` will be moved without any issues, but a file called `Hello World.zip` will cause the program to fail. This may be fixed as development of this program continues.
+This script only works for files without a space or special character in the filename. For example, a file called `HelloWorld.zip` will be removed without any issues, but a file called `Hello World.zip` will cause the program to fail. This may be fixed as development of this program continues.
 
 ## Configuring the Directory to Remove .zip Files From
 Line #4 of `ZipCleaner.sh` uses a template string for the directory to be cleaned of .zip files.
