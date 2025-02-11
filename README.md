@@ -8,9 +8,17 @@ This program was tested on different computers, all of which were running Window
 The compatibility of this program with either versions of Windows and other operating systems (such as MacOS X) has not been tested. 
 Please report any unknown errors to Nicholas Blits, whose contact information is provided in the Credits section of this README file.
 
+## Known Errors
+This script only works for files without a space or special character in the name. For example, a file called `HelloWorld.zip` will be moved without any issues, but a file called `Hello World.zip` will cause the program to fail. This may be fixed as development of this program continues.
+
 ## Configuring the Directory to Remove .zip Files From
 Line #4 of `ZipCleaner.sh` uses a template string for the directory to be cleaned of .zip files.
 In order to this program to run without encountering an error message, users should download the file, right click and choose to "Edit with Notepad". From there, please change the template string to the path you wish to have cleared of any and all .zip files.
+The type of file or any beginning string can be edited to better fit the needs of the user. Please put some formatted string in place of `"*.zip"` found after the word in on line 10 of this script to use this script for the deletion of other file types.
+
+### Examples of Alternate Configurations
+`"*.png"` or `"Screenshot.*"` are other possible file types or conditions that can be used for files to be deleted) 
+
 After the path has been configured, the file `ZipCleaner.sh` can be double clicked to begin the program's execution.
 
 ## Warning
