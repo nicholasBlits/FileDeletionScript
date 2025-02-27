@@ -1,5 +1,5 @@
 # Project Description
-`ZipCleaner.sh` enters a directory of the user's choosing and removes all the zip files from it. This release (which is called `v2.0.0`) asks the user if they wish to remove each unique zip file before the file is actually removed the user's PC.
+`ZipCleaner.sh` enters a directory of the user's choosing and removes all the zip files from it. This release (which is called `v2.0.0` and is the same code as found in that branch) asks the user if they wish to remove each unique zip file before the file is actually removed the user's PC.
 
 # Using the Program
 
