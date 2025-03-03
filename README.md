@@ -8,6 +8,10 @@ This program was tested on different computers, all of which were running Window
 The compatibility of this program with either versions of Windows and other operating systems (such as MacOS X) has not been tested. 
 Please report any unknown errors to Nicholas Blits, whose contact information is provided in the Credits section of this README file.
 
+## Known Errors
+
+This script only works for files without a space or special character in the filename. For example, a file called `HelloWorld.zip` will be removed without any issues, but a file called `Hello World.zip` will cause the program to fail. This may be fixed as development of this program continues.
+
 ### Finding Errors
 All the errors listed above were found by Anthony T. Machado.
 My contact information has been provided below Nicholas Blits'.
